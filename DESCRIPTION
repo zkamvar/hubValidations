@@ -65,6 +65,10 @@ Remotes:
     hubverse-org/hubData,
     hubverse-org/hubAdmin,
     assignUser/octolog
+Config/needs/coverage:
+    hubverse-org/hubUtils@*release,
+    hubverse-org/hubData@*release,
+    hubverse-org/hubAdmin@*release
 Config/testthat/edition: 3
 Config/Needs/website: pkgdown, hubverse-org/hubStyle
 Encoding: UTF-8
