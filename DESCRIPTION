@@ -66,9 +66,9 @@ Remotes:
     hubverse-org/hubAdmin,
     assignUser/octolog
 Config/needs/coverage:
-    github::hubverse-org/hubUtils@*release,
-    github::hubverse-org/hubData@*release,
-    github::hubverse-org/hubAdmin@*release
+    standard::hubUtils,
+    standard::hubData,
+    standard::hubAdmin
 Config/testthat/edition: 3
 Config/Needs/website: pkgdown, hubverse-org/hubStyle
 Encoding: UTF-8
